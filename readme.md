@@ -104,12 +104,5 @@ Thanks for the support of the following repositories:
 
 
 ## Cite Us
-If you found this work useful to you, please our paper:
-```
-@article{XXX,
-  title={XXX},
-  author={XXX},
-  journal={XXX},
-  year={2022}
-}
-```
+If you found this work useful to you, please cite our paper:
+MetaHMEI: meta-learning for prediction of few-shot histone modifying enzyme inhibitors, Briefings in Bioinformatics, 2023;, bbad115, https://doi.org/10.1093/bib/bbad115
