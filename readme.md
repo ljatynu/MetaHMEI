@@ -1,6 +1,7 @@
 # MetaHMEI: Meta-learning for Prediction of Histone Inhibitor Activity
 
-This code is an implementation of our paper " Meta-learning for Prediction of Histone Inhibitor Activity" in PyTorch. In this repository, we provide dataset: HME(KMD,HDAC,HAT,PMT) collected by ourselves
+This code is an implementation of our paper " Qi Lu, Ruihan Zhang, Hongyuan Zhou, Dongxuan Ni, Weilie Xiao, Jin Li, MetaHMEI: meta-learning for prediction of few-shot histone modifying enzyme inhibitors, Briefings in Bioinformatics, 2023;, bbad115, https://doi.org/10.1093/bib/bbad115" in PyTorch. 
+In this repository, we provide dataset: HME(KMD,HDAC,HAT,PMT) collected by ourselves
 
 In our problem setting of histone inhibitor activity prediction, the input of our model is the SMILES format of compound and the outputs are not only a binary prediction result of histone inhibitor activity but also the the confidence level of prediction result. The overview of our **MetaHMEI Model** is as follows:
 ![Alt](figures/The_framework%20_of%20_MetaHIA.svg)
