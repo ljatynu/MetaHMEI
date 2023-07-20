@@ -2,13 +2,13 @@
 
 This code is an implementation of our paper " Qi Lu, Ruihan Zhang, Hongyuan Zhou, Dongxuan Ni, Weilie Xiao, Jin Li, MetaHMEI: meta-learning for prediction of few-shot histone modifying enzyme inhibitors, Briefings in Bioinformatics, 2023;, bbad115, https://doi.org/10.1093/bib/bbad115" in PyTorch. In this repository, we provide dataset: HME(KMD,HDAC,HAT,PMT) collected by ourselves
 
-In our problem setting of histone inhibitor activity prediction, the input of our model is the SMILES format of compound and the outputs are not only a binary prediction result of histone inhibitor activity but also the the confidence level of prediction result. The overview of our **Meta-HIA Model** is as follows:
+In our problem setting of histone inhibitor activity prediction, the input of our model is the SMILES format of compound and the outputs are not only a binary prediction result of histone inhibitor activity but also the the confidence level of prediction result. The overview of our **MetaHMEI Model** is as follows:
 ![Alt](figures/The_framework%20_of%20_MetaHIA.svg)
 
-The details of the Meta-HIA Model are described in our paper.
+The details of the MetaHMEI Model are described in our paper.
 ## Characteristics of the repository
 
-- We provide the **several demo-scripts** of the experiments in the paper, so that you can quickly understand the histone inhibitor activity prediction process of the Meta-HIA model.
+- We provide the **several demo-scripts** of the experiments in the paper, so that you can quickly understand the histone inhibitor activity prediction process of the MetaHMEI model.
 - This code is **easy to use**. It means that you can customize your own dataset and train your own histone inhibitor activity prediction model, and apply it to the new "histone inhibitor discovery" scenario.
 
 
