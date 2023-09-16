@@ -90,34 +90,11 @@ Your MetaHIA Model can be trained as described above and then refer to **"case_s
 ## Note
 Unfortunately, we found that we made a mistake in evaluating MetaMGNN, the code disclosed by the authors of MetaMGNN converts the prediction results into label values with a threshold of 0.5 and calculates AUC, which is different from our method.
 
-We re-ran the experiment after modifying the evaluation method of MetaMGNN to be the same as our method, and the results under averaging of 5 random seeds are shown below, our method achieved the best results in 5 out of 6 cases of 3 histone modifying enzyme group, the conclusion of the paper remains unchanged.
-###### 1shot
-|  group  | MetaMGNN | MetaHMEI(Our Method) |
-| :-----:| :----: | :----: |
-|  HDM  | 74.56 | **77.96** |
-|  HDAC  | 77.81 | **78.19** |
-|  HMT  | 78.47 | **78.80** |
-###### 5shots
-|  group  | MetaMGNN | MetaHMEI(Our Method) |
-| :-----:| :----: | :----: |
-|  HDM  | 79.10 | **81.75** |
-|  HDAC  | 79.92 | **80.49** |
-|  HMT  | **83.00** | 80.12 |
+We re-ran the experiment after modifying the evaluation method of MetaMGNN to be the same as our method, and the results under averaging of 10 random seeds are shown below, our method achieved the best results in 5 out of 6 cases of 3 histone modifying enzyme group, the conclusion of the paper remains unchanged.
+![Alt](res1.png)
 
-In addition, inspired by transfer learning, we refined our method by adding a pre-training step ([Step-3](#jump)), the results under averaging of 5 random seeds are shown below
-###### 1shot
-|  group  | MetaMGNN | MetaHMEI(Our Method) |
-| :-----:| :----: | :----: |
-|  HDM  | 74.56 | **82.44** |
-|  HDAC  | 77.81 | **83.20** |
-|  HMT  | 78.47 | **83.21** |
-###### 5shots
-|  group  | MetaMGNN | MetaHMEI(Our Method) |
-| :-----:| :----: | :----: |
-|  HDM  | 79.10 | **83.53** |
-|  HDAC  | 79.92 | **84.67** |
-|  HMT  | 83.00 | **85.15** |
-
+In addition, inspired by transfer learning, we refined our method by adding a pre-training step ([Step-3](#jump)), the results under averaging of 10 random seeds are shown below
+![Alt](res2.png)
 Hope our work is helpful to you
 ## Disclaimer
 
